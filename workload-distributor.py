@@ -11,3 +11,36 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+import logging
+logging.basicConfig(
+    filename='workload-distributor.log',
+    format='%(asctime)s %(levelname)-8s %(message)s',
+    level=logging.DEBUG)
+
+import bottle
+
+
+def is_distribution_enabled():
+    enabled = False
+    with open('workload-distributor.conf', 'r') as f:
+        enabled = bool(int(f.read()))
+        logging.info('Read a value from the config: ' +
+                     str(enabled))
+    return enabled
+
+
+@bottle.get('/')
+def poll():
+    try:
+        if is_distribution_enabled():
+            logging.info('Workload distribution enabled')
+        else:
+            logging.info('Workload distribution disabled')
+    except:
+        logging.exception('Exception during request processing:')
+        raise
+
+
+bottle.debug(True)
+bottle.run(host='localhost', port=8081, reloader=True)

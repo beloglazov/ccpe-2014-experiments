@@ -42,5 +42,6 @@ def poll():
         raise
 
 
+logging.info('Starting listening on localhost:8081')
 bottle.debug(True)
 bottle.run(host='localhost', port=8081, reloader=True)

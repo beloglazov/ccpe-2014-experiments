@@ -18,6 +18,8 @@ logging.basicConfig(
     format='%(asctime)s %(levelname)-8s %(message)s',
     level=logging.DEBUG)
 
+import sys
+import os
 import bottle
 
 
@@ -25,22 +27,29 @@ def is_distribution_enabled():
     enabled = False
     with open('workload-distributor.conf', 'r') as f:
         enabled = bool(int(f.read()))
-        logging.info('Read a value from the config: ' +
+        logging.info('Workload distribution enabled: ' +
                      str(enabled))
     return enabled
 
 
 @bottle.get('/')
 def poll():
+    logging.info('Received a request from %s', bottle.request.remote_addr)
     try:
         if is_distribution_enabled():
-            logging.info('Workload distribution enabled')
-        else:
-            logging.info('Workload distribution disabled')
+            file = files.pop()
+            logging.info('Returning: %s', file)
+            return file
     except:
         logging.exception('Exception during request processing:')
         raise
 
+
+if len(sys.argv) < 2:
+    print 'You must specify an argument: a directory containing workload trace files'
+    sys.exit(1)
+
+files = os.listdir(sys.argv[1])
 
 logging.info('Starting listening on localhost:8081')
 bottle.debug(True)

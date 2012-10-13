@@ -37,9 +37,10 @@ def poll():
     logging.info('Received a request from %s', bottle.request.remote_addr)
     try:
         if is_distribution_enabled():
-            file = files.pop()
-            logging.info('Returning: %s', file)
-            return file
+            command = 'python2 ~/cpu-load-generator/cpu-load-generator.py -n 1 20 ' + \
+                      '~/spe-2012-experiments/planetlab-20110303/' + files.pop()
+            logging.info('Returning: %s', command)
+            return command
     except:
         logging.exception('Exception during request processing:')
         raise

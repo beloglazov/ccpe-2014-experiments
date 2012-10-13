@@ -14,13 +14,13 @@
 
 import logging
 logging.basicConfig(
-    filename='workload-starter.log',
     format='%(asctime)s %(levelname)-8s %(message)s',
     level=logging.DEBUG)
 
 import sys
 import time
 import requests
+import subprocess
 
 
 if len(sys.argv) < 3:
@@ -36,5 +36,12 @@ logging.info('Initialized the parameters: ' + server + ', ' + str(interval))
 while True:
     logging.info('Sending a request to the server')
     r = requests.get(server)
-    logging.info('Received a reply from the server: ' + str(r))
+    command = str(r.content)
+    if command != '':
+        logging.info('Received a reply from the server: ' + command)
+        logging.info('Starting the load generator')
+        subprocess.call(command, shell=True)
+    else:
+        logging.info('Received an empty reply')
+
     time.sleep(interval)

@@ -35,13 +35,16 @@ logging.info('Initialized the parameters: ' + server + ', ' + str(interval))
 
 while True:
     logging.info('Sending a request to the server')
-    r = requests.get(server)
-    command = str(r.content)
-    if command != '':
-        logging.info('Received a reply from the server: ' + command)
-        logging.info('Starting the load generator')
-        subprocess.call(command, shell=True)
-    else:
-        logging.info('Received an empty reply')
+    try:
+        r = requests.get(server)
+        command = str(r.content)
+        if command != '':
+            logging.info('Received a reply from the server: ' + command)
+            logging.info('Starting the load generator')
+            subprocess.call(command, shell=True)
+        else:
+            logging.info('Received an empty reply')
+    except requests.exceptions.ConnectionError:
+        logging.info('The server is unavailable')
 
     time.sleep(interval)

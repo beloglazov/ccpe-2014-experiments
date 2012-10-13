@@ -14,6 +14,7 @@
 
 import logging
 logging.basicConfig(
+    filename='workload-starter.log',
     format='%(asctime)s %(levelname)-8s %(message)s',
     level=logging.DEBUG)
 

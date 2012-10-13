@@ -37,8 +37,8 @@ def poll():
     logging.info('Received a request from %s', bottle.request.remote_addr)
     try:
         if is_distribution_enabled():
-            command = 'python2 ~/cpu-load-generator/cpu-load-generator.py -n 1 20 ' + \
-                      '~/spe-2012-experiments/planetlab-20110303/' + files.pop()
+            command = 'python2 /home/ubuntu/cpu-load-generator/cpu-load-generator.py -n 1 20 ' + \
+                      '/home/ubuntu/spe-2012-experiments/planetlab-20110303/' + files.pop()
             logging.info('Returning: %s', command)
             return command
     except:
@@ -54,4 +54,4 @@ files = os.listdir(sys.argv[1])
 
 logging.info('Starting listening on localhost:8081')
 bottle.debug(True)
-bottle.run(host='localhost', port=8081, reloader=True)
+bottle.run(host='controller', port=8081, reloader=True)

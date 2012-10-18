@@ -38,7 +38,7 @@ def poll():
     try:
         if is_distribution_enabled():
             command = 'python2 /home/ubuntu/cpu-load-generator/cpu-load-generator.py -n 1 20 ' + \
-                      '/home/ubuntu/spe-2012-experiments/planetlab-20110303/' + files.pop()
+                      '/home/ubuntu/spe-2012-experiments/{0}/{1}'.format(dir, files.pop())
             logging.info('Returning: %s', command)
             return command
     except:
@@ -50,7 +50,8 @@ if len(sys.argv) < 2:
     print 'You must specify an argument: a directory containing workload trace files'
     sys.exit(1)
 
-files = os.listdir(sys.argv[1])
+dir = sys.argv[1]
+files = os.listdir(dir)
 
 logging.info('Starting listening on localhost:8081')
 bottle.debug(True)

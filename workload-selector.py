@@ -33,10 +33,14 @@ try:
 except os.error:
     pass
 
-files = os.listdir(src)
-selected = []
+files = []
+for f in os.listdir(src):
+    path = os.path.join(src, f)
+    if os.path.getsize(path) > 800:
+        files.append(path)
+
 for i in range(n):
-    shutil.copy(os.path.join(src, random.choice(files)), dest)
+    shutil.copy(random.choice(files), dest)
 
 print 'Selected and copied ' + str(n) + \
       ' workload trace files to ' + dest

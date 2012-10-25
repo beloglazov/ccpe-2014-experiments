@@ -40,7 +40,9 @@ for f in os.listdir(src):
         files.append(path)
 
 for i in range(n):
-    shutil.copy(random.choice(files), dest)
+    f = random.choice(files)
+    files.remove(f)
+    shutil.copy(f, dest)
 
 print 'Selected and copied ' + str(n) + \
       ' workload trace files to ' + dest

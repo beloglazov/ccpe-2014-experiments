@@ -35,14 +35,14 @@ except os.error:
 
 files = []
 for f in os.listdir(src):
-    path = os.path.join(src, f)
-    if os.path.getsize(path) > 800:
-        files.append(path)
+    if os.path.getsize(os.path.join(src, f)) > 800:
+        files.append(f)
 
 for i in range(n):
     f = random.choice(files)
     files.remove(f)
-    shutil.copy(f, dest)
+    shutil.copyfile(os.path.join(src, f),
+                    os.path.join(dest, f.replace(' ', '')))
 
 print 'Selected and copied ' + str(n) + \
       ' workload trace files to ' + dest

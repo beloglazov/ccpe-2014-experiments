@@ -17,10 +17,10 @@ import os
 import random
 import shutil
 
-if len(sys.argv) < 3:
-    print 'You must specify 2 arguments:'
+if len(sys.argv) < 4:
+    print 'You must specify 3 arguments:'
     print '1. The directory containing workload trace files'
-    print '2. The directory to write the selected from to'
+    print '2. The directory to write the selected files to'
     print '3. The number of workload trace files to select'
     sys.exit(1)
 

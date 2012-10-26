@@ -29,15 +29,12 @@ dest = sys.argv[2]
 n = int(sys.argv[3])
 
 try:
-    os.makedirs(dest)
+    shutil.rmtree(dest)
 except os.error:
     pass
+os.makedirs(dest)
 
-files = []
-for f in os.listdir(src):
-    if os.path.getsize(os.path.join(src, f)) > 800:
-        files.append(f)
-
+files = os.listdir(src)
 for i in range(n):
     f = random.choice(files)
     files.remove(f)

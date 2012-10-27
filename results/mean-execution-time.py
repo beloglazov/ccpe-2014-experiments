@@ -22,6 +22,9 @@ if len(sys.argv) < 3:
     print '2. A list of end times'
     sys.exit(1)
 
+if not sys.argv[1] or not sys.argv[2]:
+    sys.exit(0)
+
 start_times = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f") 
                for x in sys.argv[1].split('\n')]
 end_times = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f") 
@@ -52,5 +55,5 @@ for delta in deltas:
 
 mean = int(round(float(sum(deltas)) / len(deltas)))
 
-print 'Mean:'
-print mean
+print ''
+print 'Mean: ' + str(mean)

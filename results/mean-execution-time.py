@@ -47,6 +47,10 @@ for i in xrange(len(start_times)):
         pairs.append((start_times_reversed[i], end_times_reversed[i]))
 
 deltas = [total_microseconds(end - start) for start, end in pairs]
+for delta in deltas:
+    print float(delta) / 1000000
+
 mean = int(round(float(sum(deltas)) / len(deltas)))
 
+print 'Mean:'
 print mean

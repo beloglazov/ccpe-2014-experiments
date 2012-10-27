@@ -1,3 +1,4 @@
 #!/bin/sh
 
-python2 workload-distributor.py full-utilization
+rm -f workload-distributor-server.log
+python2 workload-distributor.py full-utilization > workload-distributor-server.log

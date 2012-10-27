@@ -1,0 +1,904 @@
+2012-10-26 17:23:34,791 DEBUG    neat.db Instantiated a Database object
+2012-10-26 17:23:34,791 DEBUG    neat.db_utils Initialized a DB connection to mysql://neat:neatpassword@controller/neat
+2012-10-26 17:23:34,830 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:ec
+2012-10-26 17:23:34,855 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:5a:c1
+2012-10-26 17:23:34,869 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:59:3b
+2012-10-26 17:23:34,882 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:88
+2012-10-26 17:23:34,887 INFO     neat.globals.manager Switched on hosts: ['compute1', 'compute2', 'compute3', 'compute4']
+2012-10-26 17:23:34,891 INFO     neat.globals.manager Starting the global manager listening to controller:60080
+2012-10-26 17:33:58,502 DEBUG    neat.db Instantiated a Database object
+2012-10-26 17:33:58,502 DEBUG    neat.db_utils Initialized a DB connection to mysql://neat:neatpassword@controller/neat
+2012-10-26 17:33:58,514 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:ec
+2012-10-26 17:33:58,532 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:5a:c1
+2012-10-26 17:33:58,552 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:59:3b
+2012-10-26 17:33:58,571 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:88
+2012-10-26 17:33:58,578 INFO     neat.globals.manager Switched on hosts: ['compute1', 'compute2', 'compute3', 'compute4']
+2012-10-26 17:33:58,583 INFO     neat.globals.manager Starting the global manager listening to controller:60080
+2012-10-26 17:34:10,592 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 17:34:10,592 INFO     neat.globals.manager Received a request from 192.168.0.1: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute1', 'time': 1351233252.22}
+2012-10-26 17:34:10,592 INFO     neat.globals.manager Processing an underload of a host compute1
+2012-10-26 17:34:10,593 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 17:34:11,427 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 482, 'compute3': 502, 'compute2': 850, 'compute4': 438}
+2012-10-26 17:34:11,427 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 4041, 'compute3': 10494, 'compute2': 15333, 'compute4': 9439}
+2012-10-26 17:34:13,592 INFO     neat.globals.manager Underload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2', 'f55a281d-22d1-4a36-8a71-8cad45d4ebac': 'compute2', 'b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6': 'compute2', '552d7df9-d736-4b04-b982-9052978c313a': 'compute2', 'c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8': 'compute2', '927339f8-6569-4f0e-b496-a30c8a1c83ca': 'compute2', 'ae6e4ee0-cf7d-4c79-8086-cc48c92ab623': 'compute2'}
+2012-10-26 17:34:18,832 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 17:34:19,774 INFO     neat.globals.manager Started migration of VM f55a281d-22d1-4a36-8a71-8cad45d4ebac to compute2
+2012-10-26 17:34:30,033 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:33,442 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:36,660 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:39,881 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:43,100 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:46,319 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:49,540 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:52,850 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:56,072 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:34:59,288 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:35:02,616 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:35:05,833 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:35:09,064 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 17:35:12,280 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 17:35:12,284 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 17:35:12,502 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, ACTIVE
+2012-10-26 17:35:12,504 INFO     neat.globals.manager Completed migration of VM f55a281d-22d1-4a36-8a71-8cad45d4ebac to compute2
+2012-10-26 17:35:14,500 INFO     neat.globals.manager Started migration of VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6 to compute2
+2012-10-26 17:35:15,881 INFO     neat.globals.manager Started migration of VM 552d7df9-d736-4b04-b982-9052978c313a to compute2
+2012-10-26 17:35:26,095 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:29,424 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:32,641 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:35,861 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:39,079 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:42,302 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:45,521 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:48,737 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:51,956 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute1, MIGRATING
+2012-10-26 17:35:55,274 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, ACTIVE
+2012-10-26 17:35:55,278 INFO     neat.globals.manager Completed migration of VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6 to compute2
+2012-10-26 17:35:55,496 DEBUG    neat.globals.manager VM 552d7df9-d736-4b04-b982-9052978c313a: compute1, MIGRATING
+2012-10-26 17:35:58,713 DEBUG    neat.globals.manager VM 552d7df9-d736-4b04-b982-9052978c313a: compute1, MIGRATING
+2012-10-26 17:36:01,934 DEBUG    neat.globals.manager VM 552d7df9-d736-4b04-b982-9052978c313a: compute2, ACTIVE
+2012-10-26 17:36:01,937 INFO     neat.globals.manager Completed migration of VM 552d7df9-d736-4b04-b982-9052978c313a to compute2
+2012-10-26 17:36:03,827 INFO     neat.globals.manager Started migration of VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8 to compute2
+2012-10-26 17:36:04,818 INFO     neat.globals.manager Started migration of VM 927339f8-6569-4f0e-b496-a30c8a1c83ca to compute2
+2012-10-26 17:36:15,047 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:18,264 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:21,484 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:24,806 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:28,030 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:31,246 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:34,467 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute1, MIGRATING
+2012-10-26 17:36:37,683 DEBUG    neat.globals.manager VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8: compute2, ACTIVE
+2012-10-26 17:36:37,687 INFO     neat.globals.manager Completed migration of VM c5eadcfa-a68a-441b-b6c9-8a72b4e4bab8 to compute2
+2012-10-26 17:36:37,905 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:41,121 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:44,449 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:47,665 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:50,885 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:54,102 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute1, MIGRATING
+2012-10-26 17:36:57,323 DEBUG    neat.globals.manager VM 927339f8-6569-4f0e-b496-a30c8a1c83ca: compute2, ACTIVE
+2012-10-26 17:36:57,327 INFO     neat.globals.manager Completed migration of VM 927339f8-6569-4f0e-b496-a30c8a1c83ca to compute2
+2012-10-26 17:36:58,643 INFO     neat.globals.manager Started migration of VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623 to compute2
+2012-10-26 17:37:08,857 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:12,078 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:15,294 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:18,618 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:21,835 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:25,057 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute1, MIGRATING
+2012-10-26 17:37:28,274 DEBUG    neat.globals.manager VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623: compute2, ACTIVE
+2012-10-26 17:37:28,277 INFO     neat.globals.manager Completed migration of VM ae6e4ee0-cf7d-4c79-8086-cc48c92ab623 to compute2
+2012-10-26 17:37:28,278 DEBUG    neat.globals.manager Calling: ssh compute1 "pm-suspend"
+2012-10-26 17:37:31,412 INFO     neat.globals.manager Switched off hosts: ['compute1']
+2012-10-26 17:37:31,415 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 17:49:11,846 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 17:49:11,846 INFO     neat.globals.manager Received a request from 192.168.0.4: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute4', 'time': 1351234152.98}
+2012-10-26 17:49:11,846 INFO     neat.globals.manager Processing an underload of a host compute4
+2012-10-26 17:49:11,847 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 17:49:12,502 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 285, 'compute3': 364, 'compute2': 343, 'compute4': 369}
+2012-10-26 17:49:12,502 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 6838, 'compute2': 20073, 'compute4': 4492}
+2012-10-26 17:49:14,651 INFO     neat.globals.manager Underload: obtained a new placement {'bda86b63-3201-406c-af4d-559a8f92abb7': 'compute2', 'eba99096-e18c-4286-92a0-69bf750d5be9': 'compute3', 'cbf8ba06-75dc-45cb-9019-d82f878750c0': 'compute2', '07b7b82d-8bd7-4a6a-8f3a-a590c7b52221': 'compute3', '3ae48aea-4889-47aa-bbd4-d336d62c92f6': 'compute3', '081210d1-e1fa-403c-a0fc-9d545718cc55': 'compute2', '268d217c-1081-432c-a0e4-d17710107c5a': 'compute2'}
+2012-10-26 17:49:15,792 INFO     neat.globals.manager Started migration of VM bda86b63-3201-406c-af4d-559a8f92abb7 to compute2
+2012-10-26 17:49:16,757 INFO     neat.globals.manager Started migration of VM eba99096-e18c-4286-92a0-69bf750d5be9 to compute3
+2012-10-26 17:49:26,975 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:30,204 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:33,421 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:36,641 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:39,858 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:43,079 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:46,296 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:49,618 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute4, MIGRATING
+2012-10-26 17:49:52,837 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 17:49:56,055 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, ACTIVE
+2012-10-26 17:49:56,058 INFO     neat.globals.manager Completed migration of VM bda86b63-3201-406c-af4d-559a8f92abb7 to compute2
+2012-10-26 17:49:56,275 DEBUG    neat.globals.manager VM eba99096-e18c-4286-92a0-69bf750d5be9: compute3, ACTIVE
+2012-10-26 17:49:56,278 INFO     neat.globals.manager Completed migration of VM eba99096-e18c-4286-92a0-69bf750d5be9 to compute3
+2012-10-26 17:49:57,474 INFO     neat.globals.manager Started migration of VM cbf8ba06-75dc-45cb-9019-d82f878750c0 to compute2
+2012-10-26 17:49:58,305 INFO     neat.globals.manager Started migration of VM 07b7b82d-8bd7-4a6a-8f3a-a590c7b52221 to compute3
+2012-10-26 17:50:08,529 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:11,749 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:14,965 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:18,290 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:21,507 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:24,724 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:27,944 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:31,163 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:34,385 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute4, MIGRATING
+2012-10-26 17:50:37,603 DEBUG    neat.globals.manager VM cbf8ba06-75dc-45cb-9019-d82f878750c0: compute2, ACTIVE
+2012-10-26 17:50:37,606 INFO     neat.globals.manager Completed migration of VM cbf8ba06-75dc-45cb-9019-d82f878750c0 to compute2
+2012-10-26 17:50:37,819 DEBUG    neat.globals.manager VM 07b7b82d-8bd7-4a6a-8f3a-a590c7b52221: compute3, ACTIVE
+2012-10-26 17:50:37,822 INFO     neat.globals.manager Completed migration of VM 07b7b82d-8bd7-4a6a-8f3a-a590c7b52221 to compute3
+2012-10-26 17:50:38,987 INFO     neat.globals.manager Started migration of VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6 to compute3
+2012-10-26 17:50:39,894 INFO     neat.globals.manager Started migration of VM 081210d1-e1fa-403c-a0fc-9d545718cc55 to compute2
+2012-10-26 17:50:50,114 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:50:53,331 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:50:56,551 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:50:59,768 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:51:02,989 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:51:06,205 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:51:09,535 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:51:12,751 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute4, MIGRATING
+2012-10-26 17:51:15,972 DEBUG    neat.globals.manager VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6: compute3, ACTIVE
+2012-10-26 17:51:15,975 INFO     neat.globals.manager Completed migration of VM 3ae48aea-4889-47aa-bbd4-d336d62c92f6 to compute3
+2012-10-26 17:51:16,189 DEBUG    neat.globals.manager VM 081210d1-e1fa-403c-a0fc-9d545718cc55: compute4, MIGRATING
+2012-10-26 17:51:19,411 DEBUG    neat.globals.manager VM 081210d1-e1fa-403c-a0fc-9d545718cc55: compute2, ACTIVE
+2012-10-26 17:51:19,414 INFO     neat.globals.manager Completed migration of VM 081210d1-e1fa-403c-a0fc-9d545718cc55 to compute2
+2012-10-26 17:51:20,558 INFO     neat.globals.manager Started migration of VM 268d217c-1081-432c-a0e4-d17710107c5a to compute2
+2012-10-26 17:51:30,778 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:33,999 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:37,212 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:40,539 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:43,756 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:46,976 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:50,194 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:53,416 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:56,633 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:51:59,851 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:03,172 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:06,389 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:09,610 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:12,827 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:16,048 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:19,264 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:22,485 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:25,701 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:29,028 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:32,248 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:35,469 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:38,686 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:41,907 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:45,124 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:48,344 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:51,667 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:54,889 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:52:58,106 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:01,329 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:04,546 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:07,767 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:10,989 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:14,327 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:17,544 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:20,764 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:23,981 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:27,206 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:30,423 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute4, MIGRATING
+2012-10-26 17:53:33,641 DEBUG    neat.globals.manager VM 268d217c-1081-432c-a0e4-d17710107c5a: compute2, ACTIVE
+2012-10-26 17:53:33,644 INFO     neat.globals.manager Completed migration of VM 268d217c-1081-432c-a0e4-d17710107c5a to compute2
+2012-10-26 17:53:33,644 DEBUG    neat.globals.manager Calling: ssh compute4 "pm-suspend"
+2012-10-26 17:53:34,336 INFO     neat.globals.manager Switched off hosts: ['compute4']
+2012-10-26 17:53:34,339 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 17:54:13,525 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 17:54:13,525 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351234454.9200001}
+2012-10-26 17:54:13,525 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 17:54:13,526 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 17:54:14,223 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 2869, 'compute3': 2713, 'compute2': 2260, 'compute4': 1929}
+2012-10-26 17:54:14,224 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 15255, 'compute2': 21193}
+2012-10-26 17:54:14,482 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 17:54:15,654 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 17:54:25,875 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:29,093 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:32,327 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:35,547 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:38,764 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:42,086 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 17:54:45,304 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 17:54:45,307 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 17:54:45,307 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 17:59:45,553 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 17:59:45,553 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['f55a281d-22d1-4a36-8a71-8cad45d4ebac'], 'time': 1351234786.99}
+2012-10-26 17:59:45,554 INFO     neat.globals.manager Processing an overload, VMs: ['f55a281d-22d1-4a36-8a71-8cad45d4ebac']
+2012-10-26 17:59:45,554 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 17:59:46,165 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 2765, 'compute3': 2808, 'compute2': 2371, 'compute4': 2363}
+2012-10-26 17:59:46,165 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 17515, 'compute2': 21535}
+2012-10-26 17:59:46,424 INFO     neat.globals.manager Overload: obtained a new placement {'f55a281d-22d1-4a36-8a71-8cad45d4ebac': 'compute3'}
+2012-10-26 17:59:47,654 INFO     neat.globals.manager Started migration of VM f55a281d-22d1-4a36-8a71-8cad45d4ebac to compute3
+2012-10-26 17:59:57,880 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:01,103 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:04,319 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:07,638 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:10,857 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:14,081 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute2, MIGRATING
+2012-10-26 18:00:17,299 DEBUG    neat.globals.manager VM f55a281d-22d1-4a36-8a71-8cad45d4ebac: compute3, ACTIVE
+2012-10-26 18:00:17,303 INFO     neat.globals.manager Completed migration of VM f55a281d-22d1-4a36-8a71-8cad45d4ebac to compute3
+2012-10-26 18:00:17,303 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 18:05:17,515 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 18:05:17,515 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['bda86b63-3201-406c-af4d-559a8f92abb7'], 'time': 1351235118.96}
+2012-10-26 18:05:17,515 INFO     neat.globals.manager Processing an overload, VMs: ['bda86b63-3201-406c-af4d-559a8f92abb7']
+2012-10-26 18:05:17,515 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 18:05:18,132 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 2005, 'compute3': 2158, 'compute2': 1775, 'compute4': 2101}
+2012-10-26 18:05:18,132 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 20024, 'compute2': 20361}
+2012-10-26 18:05:18,390 INFO     neat.globals.manager Overload: obtained a new placement {'bda86b63-3201-406c-af4d-559a8f92abb7': 'compute2'}
+2012-10-26 18:05:19,215 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance bda86b63-3201-406c-af4d-559a8f92abb7 to host compute2 failed (HTTP 400) (Request-ID: req-7fe5540b-c941-47d0-877c-a3b5d65ee5e6)
+2012-10-26 19:05:21,402 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 19:05:21,403 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['bda86b63-3201-406c-af4d-559a8f92abb7'], 'time': 1351238722.9000001}
+2012-10-26 19:05:21,403 INFO     neat.globals.manager Processing an overload, VMs: ['bda86b63-3201-406c-af4d-559a8f92abb7']
+2012-10-26 19:05:21,403 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 19:05:22,242 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 153, 'compute3': 301, 'compute2': 410, 'compute4': 126}
+2012-10-26 19:05:22,242 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 18597, 'compute2': 21744}
+2012-10-26 19:05:22,497 INFO     neat.globals.manager Overload: obtained a new placement {'bda86b63-3201-406c-af4d-559a8f92abb7': 'compute3'}
+2012-10-26 19:05:23,593 INFO     neat.globals.manager Started migration of VM bda86b63-3201-406c-af4d-559a8f92abb7 to compute3
+2012-10-26 19:05:33,818 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 19:05:37,035 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 19:05:40,256 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 19:05:43,479 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 19:05:46,801 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute2, MIGRATING
+2012-10-26 19:05:50,018 DEBUG    neat.globals.manager VM bda86b63-3201-406c-af4d-559a8f92abb7: compute3, ACTIVE
+2012-10-26 19:05:50,021 INFO     neat.globals.manager Completed migration of VM bda86b63-3201-406c-af4d-559a8f92abb7 to compute3
+2012-10-26 19:05:50,021 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 19:35:51,650 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 19:35:51,651 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['226ad085-35bc-4e9c-89c6-fc54bd004fbe'], 'time': 1351240553.1700001}
+2012-10-26 19:35:51,651 INFO     neat.globals.manager Processing an overload, VMs: ['226ad085-35bc-4e9c-89c6-fc54bd004fbe']
+2012-10-26 19:35:51,651 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 19:35:52,490 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 122, 'compute3': 289, 'compute2': 274, 'compute4': 78}
+2012-10-26 19:35:52,490 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 15035, 'compute2': 21716}
+2012-10-26 19:35:52,749 INFO     neat.globals.manager Overload: obtained a new placement {'226ad085-35bc-4e9c-89c6-fc54bd004fbe': 'compute3'}
+2012-10-26 19:35:53,835 INFO     neat.globals.manager Started migration of VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe to compute3
+2012-10-26 19:36:04,061 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute2, MIGRATING
+2012-10-26 19:36:07,279 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute2, MIGRATING
+2012-10-26 19:36:10,497 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute2, MIGRATING
+2012-10-26 19:36:13,813 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute2, MIGRATING
+2012-10-26 19:36:17,029 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute2, MIGRATING
+2012-10-26 19:36:20,251 DEBUG    neat.globals.manager VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe: compute3, ACTIVE
+2012-10-26 19:36:20,254 INFO     neat.globals.manager Completed migration of VM 226ad085-35bc-4e9c-89c6-fc54bd004fbe to compute3
+2012-10-26 19:36:20,254 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 19:51:20,773 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 19:51:20,773 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6'], 'time': 1351241482.3}
+2012-10-26 19:51:20,773 INFO     neat.globals.manager Processing an overload, VMs: ['b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6']
+2012-10-26 19:51:20,774 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 19:51:21,662 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 94, 'compute3': 237, 'compute2': 0, 'compute4': 60}
+2012-10-26 19:51:21,663 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 15413, 'compute2': 22073}
+2012-10-26 19:51:21,917 INFO     neat.globals.manager Overload: obtained a new placement {'b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6': 'compute3'}
+2012-10-26 19:51:23,029 INFO     neat.globals.manager Started migration of VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6 to compute3
+2012-10-26 19:51:33,253 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:36,580 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:39,798 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:43,015 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:46,235 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:49,451 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute2, MIGRATING
+2012-10-26 19:51:52,674 DEBUG    neat.globals.manager VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6: compute3, ACTIVE
+2012-10-26 19:51:52,677 INFO     neat.globals.manager Completed migration of VM b6ce1852-1a89-4bc9-8cef-2d2a0dc8a1d6 to compute3
+2012-10-26 19:51:52,678 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 20:49:19,063 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 20:49:19,064 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351244960.5899999}
+2012-10-26 20:49:19,064 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 20:49:19,064 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 20:49:20,332 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 111, 'compute3': 0, 'compute2': 257, 'compute4': 81}
+2012-10-26 20:49:20,332 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 22265, 'compute2': 18447}
+2012-10-26 20:49:20,588 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 20:49:22,160 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 20:49:32,386 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:35,603 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:38,823 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:42,039 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:45,259 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:48,475 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 20:49:51,806 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 20:49:51,810 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 20:49:51,810 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 21:01:56,742 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:01:56,742 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351245718.29}
+2012-10-26 21:01:56,742 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:01:56,743 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:01:57,346 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 120, 'compute3': 296, 'compute2': 290, 'compute4': 64}
+2012-10-26 21:01:57,346 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 15608, 'compute2': 22026}
+2012-10-26 21:01:57,605 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 21:01:58,840 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 21:02:09,069 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:12,288 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:15,504 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:18,821 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:22,043 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:25,264 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:02:28,482 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 21:02:28,485 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 21:02:28,485 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 21:04:52,511 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:04:52,512 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351245894.75}
+2012-10-26 21:04:52,512 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:04:52,512 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:04:53,114 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 96, 'compute3': 296, 'compute2': 342, 'compute4': 81}
+2012-10-26 21:04:53,114 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 21700, 'compute2': 21156}
+2012-10-26 21:04:53,372 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute1'}
+2012-10-26 21:04:53,372 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:ec
+2012-10-26 21:04:53,379 INFO     neat.globals.manager Switched on hosts: ['compute1']
+2012-10-26 21:04:54,588 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 21:05:04,813 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:05:08,134 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:05:11,351 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:05:14,573 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:05:17,792 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:05:21,012 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, ACTIVE
+2012-10-26 21:05:21,015 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 21:05:21,015 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 21:07:35,319 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:07:35,319 INFO     neat.globals.manager Received a request from 192.168.0.1: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute1', 'time': 1351246057.1800001}
+2012-10-26 21:07:35,319 INFO     neat.globals.manager Processing an underload of a host compute1
+2012-10-26 21:07:35,320 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 21:07:35,970 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 145, 'compute3': 378, 'compute2': 698, 'compute4': 109}
+2012-10-26 21:07:35,970 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 502, 'compute3': 21403, 'compute2': 19427}
+2012-10-26 21:07:36,873 INFO     neat.globals.manager Underload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 21:07:38,110 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 21:07:48,335 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 21:07:51,560 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 21:07:54,779 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 21:07:57,998 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 21:08:01,218 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 21:08:04,532 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 21:08:04,535 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 21:08:04,535 DEBUG    neat.globals.manager Calling: ssh compute1 "pm-suspend"
+2012-10-26 21:08:04,787 INFO     neat.globals.manager Switched off hosts: ['compute1']
+2012-10-26 21:08:04,790 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 21:12:30,147 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:12:30,147 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351246351.73}
+2012-10-26 21:12:30,147 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:12:30,148 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:12:30,750 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 102, 'compute3': 367, 'compute2': 429, 'compute4': 60}
+2012-10-26 21:12:30,750 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 16389, 'compute2': 19810}
+2012-10-26 21:12:31,011 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 21:12:32,111 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 21:12:42,341 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:12:45,559 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:12:48,775 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:12:52,094 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:12:55,311 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 21:12:58,532 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 21:12:58,535 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 21:12:58,536 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 21:15:21,443 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:15:21,443 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351246523.6700001}
+2012-10-26 21:15:21,443 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:15:21,444 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:15:22,042 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 127, 'compute3': 422, 'compute2': 278, 'compute4': 84}
+2012-10-26 21:15:22,042 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 16117, 'compute2': 18589}
+2012-10-26 21:15:22,298 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 21:15:23,424 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 21:15:33,648 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:15:36,865 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:15:40,189 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:15:43,406 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:15:46,626 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 21:15:49,845 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 21:15:49,848 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 21:15:49,848 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 21:17:58,748 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:17:58,749 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351246680.3399999}
+2012-10-26 21:17:58,749 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:17:58,749 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:17:59,350 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 73, 'compute3': 358, 'compute2': 495, 'compute4': 199}
+2012-10-26 21:17:59,350 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 15327, 'compute2': 17570}
+2012-10-26 21:17:59,616 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 21:18:00,038 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute2 failed (HTTP 400) (Request-ID: req-01694054-7358-43f6-81ad-61c822d2d45f)
+2012-10-26 21:23:00,238 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:23:00,239 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351246981.8399999}
+2012-10-26 21:23:00,239 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:23:00,239 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:23:00,949 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 141, 'compute3': 130, 'compute2': 382, 'compute4': 89}
+2012-10-26 21:23:00,949 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 17376, 'compute2': 19321}
+2012-10-26 21:23:01,205 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 21:23:01,696 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute2 failed (HTTP 400) (Request-ID: req-60345518-1772-40d0-b65c-a6409e251f7e)
+2012-10-26 21:28:01,844 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 21:28:01,844 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351247283.45}
+2012-10-26 21:28:01,844 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 21:28:01,845 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 21:28:02,453 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 99, 'compute3': 330, 'compute2': 404, 'compute4': 82}
+2012-10-26 21:28:02,454 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 18587, 'compute2': 19693}
+2012-10-26 21:28:02,713 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 21:28:03,136 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute2 failed (HTTP 400) (Request-ID: req-fe277334-00a9-490e-af3a-7da7dbd40685)
+2012-10-26 23:08:08,429 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:08:08,429 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351253290.0799999}
+2012-10-26 23:08:08,429 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:08:08,429 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:08:09,230 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 95, 'compute3': 299, 'compute2': 265, 'compute4': 85}
+2012-10-26 23:08:09,230 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 21551, 'compute2': 21734}
+2012-10-26 23:08:09,488 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute1'}
+2012-10-26 23:08:09,488 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:ec
+2012-10-26 23:08:09,495 INFO     neat.globals.manager Switched on hosts: ['compute1']
+2012-10-26 23:08:10,699 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 23:08:20,929 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:08:24,146 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:08:27,363 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:08:30,583 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:08:33,798 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:08:37,119 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, ACTIVE
+2012-10-26 23:08:37,123 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 23:08:37,123 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:13:07,149 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:13:07,150 INFO     neat.globals.manager Received a request from 192.168.0.1: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute1', 'time': 1351253589.1300001}
+2012-10-26 23:13:07,150 INFO     neat.globals.manager Processing an underload of a host compute1
+2012-10-26 23:13:07,150 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 23:13:07,919 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 119, 'compute3': 289, 'compute2': 203, 'compute4': 75}
+2012-10-26 23:13:07,919 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 2514, 'compute3': 17026, 'compute2': 15831}
+2012-10-26 23:13:08,676 INFO     neat.globals.manager Underload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:13:10,187 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:13:20,413 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:13:23,641 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:13:26,955 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:13:30,174 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:13:33,391 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:13:36,612 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 23:13:36,615 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:13:36,615 DEBUG    neat.globals.manager Calling: ssh compute1 "pm-suspend"
+2012-10-26 23:13:36,844 INFO     neat.globals.manager Switched off hosts: ['compute1']
+2012-10-26 23:13:36,847 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 23:15:54,987 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:15:54,987 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351253757.3699999}
+2012-10-26 23:15:54,987 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:15:54,988 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:15:55,738 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 125, 'compute3': 176, 'compute2': 347, 'compute4': 95}
+2012-10-26 23:15:55,738 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 17710, 'compute2': 16922}
+2012-10-26 23:15:55,993 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:15:56,440 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute3 failed (HTTP 400) (Request-ID: req-3a3b245c-6114-4043-8842-ea32289d793b)
+2012-10-26 23:20:56,641 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:20:56,642 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351254059.03}
+2012-10-26 23:20:56,642 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:20:56,642 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:20:57,475 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 107, 'compute3': 330, 'compute2': 399, 'compute4': 68}
+2012-10-26 23:20:57,475 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 17233, 'compute2': 18458}
+2012-10-26 23:20:57,734 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 23:20:59,010 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 23:21:09,239 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:12,456 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:15,682 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:18,900 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:22,116 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:25,436 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:21:28,653 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 23:21:28,657 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 23:21:28,657 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:23:37,649 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:23:37,649 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351254219.3399999}
+2012-10-26 23:23:37,649 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:23:37,649 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:23:38,390 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 136, 'compute3': 293, 'compute2': 113, 'compute4': 99}
+2012-10-26 23:23:38,390 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 20064, 'compute2': 18863}
+2012-10-26 23:23:38,649 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 23:23:39,074 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute2 failed (HTTP 400) (Request-ID: req-d6b677d7-701f-479a-942c-f646c701aa22)
+2012-10-26 23:28:39,268 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:28:39,269 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351254520.97}
+2012-10-26 23:28:39,269 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:28:39,269 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:28:40,023 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 120, 'compute3': 296, 'compute2': 149, 'compute4': 65}
+2012-10-26 23:28:40,023 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 19943, 'compute2': 18170}
+2012-10-26 23:28:40,379 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:28:41,597 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:28:51,822 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:28:55,043 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:28:58,261 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:29:01,482 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:29:04,699 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:29:07,923 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 23:29:07,927 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:29:07,927 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:31:29,263 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:31:29,263 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351254691.6500001}
+2012-10-26 23:31:29,263 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:31:29,263 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:31:30,120 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 100, 'compute3': 333, 'compute2': 266, 'compute4': 84}
+2012-10-26 23:31:30,121 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 16471, 'compute2': 15893}
+2012-10-26 23:31:30,380 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:31:30,805 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute3 failed (HTTP 400) (Request-ID: req-1b1fb0a2-3ad0-4e07-9121-ad21c45a39ec)
+2012-10-26 23:36:31,018 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:36:31,019 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351254993.4300001}
+2012-10-26 23:36:31,019 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:36:31,019 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:36:31,799 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 122, 'compute3': 339, 'compute2': 277, 'compute4': 69}
+2012-10-26 23:36:31,799 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 19835, 'compute2': 21631}
+2012-10-26 23:36:32,059 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute1'}
+2012-10-26 23:36:32,059 DEBUG    neat.globals.manager Calling: ether-wake 00:21:5e:6d:57:ec
+2012-10-26 23:36:32,065 INFO     neat.globals.manager Switched on hosts: ['compute1']
+2012-10-26 23:36:33,207 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 23:36:43,431 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:36:46,750 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:36:49,971 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:36:53,195 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:36:56,412 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-26 23:36:59,634 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, ACTIVE
+2012-10-26 23:36:59,637 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute1
+2012-10-26 23:36:59,637 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:38:37,293 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:38:37,293 INFO     neat.globals.manager Received a request from 192.168.0.1: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute1', 'time': 1351255119.3}
+2012-10-26 23:38:37,293 INFO     neat.globals.manager Processing an underload of a host compute1
+2012-10-26 23:38:37,294 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 23:38:38,123 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 145, 'compute3': 583, 'compute2': 593, 'compute4': 70}
+2012-10-26 23:38:38,124 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 355, 'compute3': 21887, 'compute2': 21376}
+2012-10-26 23:38:38,981 INFO     neat.globals.manager Underload: obtained a new placement {}
+2012-10-26 23:38:38,984 INFO     neat.globals.manager Nothing to migrate
+2012-10-26 23:38:38,985 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 23:42:00,206 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:42:00,206 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['2b539966-767c-40be-9bb8-647fdf771448'], 'time': 1351255322.6199999}
+2012-10-26 23:42:00,206 INFO     neat.globals.manager Processing an overload, VMs: ['2b539966-767c-40be-9bb8-647fdf771448']
+2012-10-26 23:42:00,206 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:42:01,085 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 130, 'compute3': 303, 'compute2': 286, 'compute4': 71}
+2012-10-26 23:42:01,086 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 318, 'compute3': 21832, 'compute2': 17877}
+2012-10-26 23:42:01,346 INFO     neat.globals.manager Overload: obtained a new placement {'2b539966-767c-40be-9bb8-647fdf771448': 'compute2'}
+2012-10-26 23:42:02,815 INFO     neat.globals.manager Started migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute2
+2012-10-26 23:42:13,039 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-26 23:42:16,256 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-26 23:42:19,575 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-26 23:42:22,792 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-26 23:42:26,014 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-26 23:42:29,230 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, ACTIVE
+2012-10-26 23:42:29,234 INFO     neat.globals.manager Completed migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute2
+2012-10-26 23:42:29,234 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:43:39,088 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:43:39,088 INFO     neat.globals.manager Received a request from 192.168.0.1: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 0, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'host': 'compute1', 'time': 1351255421.0999999}
+2012-10-26 23:43:39,088 INFO     neat.globals.manager Processing an underload of a host compute1
+2012-10-26 23:43:39,089 INFO     neat.globals.manager Started processing an underload request
+2012-10-26 23:43:39,931 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 338, 'compute3': 905, 'compute2': 0, 'compute4': 74}
+2012-10-26 23:43:39,931 DEBUG    neat.globals.manager Host total CPU usage: {'compute1': 584, 'compute3': 21228, 'compute2': 18378}
+2012-10-26 23:43:40,792 INFO     neat.globals.manager Underload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-26 23:43:42,219 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 23:43:52,445 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:43:55,665 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:43:58,882 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:44:02,112 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:44:05,331 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute1, MIGRATING
+2012-10-26 23:44:08,547 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-26 23:44:08,551 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-26 23:44:08,551 DEBUG    neat.globals.manager Calling: ssh compute1 "pm-suspend"
+2012-10-26 23:44:08,774 INFO     neat.globals.manager Switched off hosts: ['compute1']
+2012-10-26 23:44:08,777 INFO     neat.globals.manager Completed processing an underload request
+2012-10-26 23:44:08,779 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:44:08,779 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351255450.1900001}
+2012-10-26 23:44:08,779 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:44:08,779 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:44:09,677 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 338, 'compute3': 296, 'compute2': 283, 'compute4': 101}
+2012-10-26 23:44:09,677 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 20420, 'compute2': 18303}
+2012-10-26 23:44:09,937 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:44:11,182 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:44:21,403 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:44:24,620 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:44:27,838 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:44:31,058 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:44:34,272 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-26 23:44:37,593 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-26 23:44:37,597 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-26 23:44:37,597 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:49:37,788 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:49:37,788 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['2b539966-767c-40be-9bb8-647fdf771448'], 'time': 1351255779.51}
+2012-10-26 23:49:37,788 INFO     neat.globals.manager Processing an overload, VMs: ['2b539966-767c-40be-9bb8-647fdf771448']
+2012-10-26 23:49:37,788 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:49:38,599 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 85, 'compute3': 285, 'compute2': 293, 'compute4': 67}
+2012-10-26 23:49:38,599 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 18362, 'compute2': 20472}
+2012-10-26 23:49:38,854 INFO     neat.globals.manager Overload: obtained a new placement {'2b539966-767c-40be-9bb8-647fdf771448': 'compute3'}
+2012-10-26 23:49:40,099 INFO     neat.globals.manager Started migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute3
+2012-10-26 23:49:50,325 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-26 23:49:53,542 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-26 23:49:56,763 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-26 23:50:00,076 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-26 23:50:03,299 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-26 23:50:06,516 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, ACTIVE
+2012-10-26 23:50:06,519 INFO     neat.globals.manager Completed migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute3
+2012-10-26 23:50:06,520 INFO     neat.globals.manager Completed processing an overload request
+2012-10-26 23:52:29,980 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:52:29,980 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351255952.3900001}
+2012-10-26 23:52:29,980 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:52:29,981 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:52:30,797 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 108, 'compute3': 303, 'compute2': 287, 'compute4': 87}
+2012-10-26 23:52:30,797 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 20328, 'compute2': 19632}
+2012-10-26 23:52:31,052 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:52:31,497 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute3 failed (HTTP 400) (Request-ID: req-b0a121b4-10c2-4024-879a-953d35d6f521)
+2012-10-26 23:57:31,707 DEBUG    neat.globals.manager Request parameters validated
+2012-10-26 23:57:31,707 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351256254.1400001}
+2012-10-26 23:57:31,707 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-26 23:57:31,708 INFO     neat.globals.manager Started processing an overload request
+2012-10-26 23:57:32,532 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 116, 'compute3': 300, 'compute2': 273, 'compute4': 68}
+2012-10-26 23:57:32,532 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 18862, 'compute2': 16985}
+2012-10-26 23:57:32,921 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-26 23:57:33,370 ERROR    neat.globals.manager Exception during request processing:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 236, in service
+    params['vm_uuids'])
+  File "<string>", line 2, in execute_overload
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 556, in execute_overload
+    placement)
+  File "<string>", line 2, in migrate_vms
+  File "/usr/lib/python2.6/site-packages/contracts/main.py", line 269, in contracts_checker
+    result = function(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/openstack_neat-0.1-py2.6.egg/neat/globals/manager.py", line 713, in migrate_vms
+    nova.servers.live_migrate(vm, host, False, False)
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 650, in live_migrate
+    'disk_over_commit': disk_over_commit})
+  File "/usr/lib/python2.6/site-packages/novaclient/v1_1/servers.py", line 689, in _action
+    return self.api.client.post(url, body=body)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 242, in post
+    return self._cs_request(url, 'POST', **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 226, in _cs_request
+    **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 208, in _time_request
+    resp, body = self.request(url, method, **kwargs)
+  File "/usr/lib/python2.6/site-packages/novaclient/client.py", line 202, in request
+    raise exceptions.from_response(resp, body)
+BadRequest: Live migration of instance 763b91c2-05ed-48a8-9d94-c88c9ac68205 to host compute3 failed (HTTP 400) (Request-ID: req-a047616c-eefb-446d-9efe-a92667a1807d)
+2012-10-27 00:02:33,584 DEBUG    neat.globals.manager Request parameters validated
+2012-10-27 00:02:33,585 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351256556.02}
+2012-10-27 00:02:33,585 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-27 00:02:33,585 INFO     neat.globals.manager Started processing an overload request
+2012-10-27 00:02:34,427 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 104, 'compute3': 314, 'compute2': 343, 'compute4': 49}
+2012-10-27 00:02:34,427 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 21374, 'compute2': 16450}
+2012-10-27 00:02:34,685 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute2'}
+2012-10-27 00:02:35,886 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-27 00:02:46,116 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-27 00:02:49,333 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-27 00:02:52,550 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-27 00:02:55,869 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-27 00:02:59,088 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, MIGRATING
+2012-10-27 00:03:02,309 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, ACTIVE
+2012-10-27 00:03:02,313 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute2
+2012-10-27 00:03:02,313 INFO     neat.globals.manager Completed processing an overload request
+2012-10-27 00:08:02,508 DEBUG    neat.globals.manager Request parameters validated
+2012-10-27 00:08:02,509 INFO     neat.globals.manager Received a request from 192.168.0.3: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['2b539966-767c-40be-9bb8-647fdf771448'], 'time': 1351256884.95}
+2012-10-27 00:08:02,509 INFO     neat.globals.manager Processing an overload, VMs: ['2b539966-767c-40be-9bb8-647fdf771448']
+2012-10-27 00:08:02,509 INFO     neat.globals.manager Started processing an overload request
+2012-10-27 00:08:03,362 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 116, 'compute3': 347, 'compute2': 301, 'compute4': 64}
+2012-10-27 00:08:03,362 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 21582, 'compute2': 16501}
+2012-10-27 00:08:03,615 INFO     neat.globals.manager Overload: obtained a new placement {'2b539966-767c-40be-9bb8-647fdf771448': 'compute2'}
+2012-10-27 00:08:04,970 INFO     neat.globals.manager Started migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute2
+2012-10-27 00:08:15,195 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-27 00:08:18,514 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-27 00:08:21,731 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-27 00:08:24,949 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-27 00:08:28,172 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, MIGRATING
+2012-10-27 00:08:31,389 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, ACTIVE
+2012-10-27 00:08:31,392 INFO     neat.globals.manager Completed migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute2
+2012-10-27 00:08:31,392 INFO     neat.globals.manager Completed processing an overload request
+2012-10-27 02:40:15,165 DEBUG    neat.globals.manager Request parameters validated
+2012-10-27 02:40:15,165 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['763b91c2-05ed-48a8-9d94-c88c9ac68205'], 'time': 1351266016.98}
+2012-10-27 02:40:15,165 INFO     neat.globals.manager Processing an overload, VMs: ['763b91c2-05ed-48a8-9d94-c88c9ac68205']
+2012-10-27 02:40:15,166 INFO     neat.globals.manager Started processing an overload request
+2012-10-27 02:40:15,777 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 148, 'compute3': 247, 'compute2': 475, 'compute4': 86}
+2012-10-27 02:40:15,777 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 18752, 'compute2': 21766}
+2012-10-27 02:40:16,135 INFO     neat.globals.manager Overload: obtained a new placement {'763b91c2-05ed-48a8-9d94-c88c9ac68205': 'compute3'}
+2012-10-27 02:40:17,610 INFO     neat.globals.manager Started migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-27 02:40:27,841 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-27 02:40:31,058 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-27 02:40:34,275 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-27 02:40:37,495 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-27 02:40:40,713 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute2, MIGRATING
+2012-10-27 02:40:43,934 DEBUG    neat.globals.manager VM 763b91c2-05ed-48a8-9d94-c88c9ac68205: compute3, ACTIVE
+2012-10-27 02:40:43,937 INFO     neat.globals.manager Completed migration of VM 763b91c2-05ed-48a8-9d94-c88c9ac68205 to compute3
+2012-10-27 02:40:43,937 INFO     neat.globals.manager Completed processing an overload request
+2012-10-27 03:20:45,302 DEBUG    neat.globals.manager Request parameters validated
+2012-10-27 03:20:45,302 INFO     neat.globals.manager Received a request from 192.168.0.2: {'username': 'd033e22ae348aeb5660fc2140aec35850c4da997', 'reason': 1, 'password': 'efacc4001e857f7eba4ae781c2932dedf843865e', 'vm_uuids': ['2b539966-767c-40be-9bb8-647fdf771448'], 'time': 1351268447.1800001}
+2012-10-27 03:20:45,302 INFO     neat.globals.manager Processing an overload, VMs: ['2b539966-767c-40be-9bb8-647fdf771448']
+2012-10-27 03:20:45,303 INFO     neat.globals.manager Started processing an overload request
+2012-10-27 03:20:46,066 DEBUG    neat.globals.manager Host CPU usage: {'compute1': 111, 'compute3': 356, 'compute2': 105, 'compute4': 66}
+2012-10-27 03:20:46,067 DEBUG    neat.globals.manager Host total CPU usage: {'compute3': 14802, 'compute2': 21813}
+2012-10-27 03:20:46,322 INFO     neat.globals.manager Overload: obtained a new placement {'2b539966-767c-40be-9bb8-647fdf771448': 'compute3'}
+2012-10-27 03:20:47,612 INFO     neat.globals.manager Started migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute3
+2012-10-27 03:20:57,842 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:01,057 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:04,278 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:07,495 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:10,715 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:14,036 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute2, MIGRATING
+2012-10-27 03:21:17,257 DEBUG    neat.globals.manager VM 2b539966-767c-40be-9bb8-647fdf771448: compute3, ACTIVE
+2012-10-27 03:21:17,260 INFO     neat.globals.manager Completed migration of VM 2b539966-767c-40be-9bb8-647fdf771448 to compute3
+2012-10-27 03:21:17,261 INFO     neat.globals.manager Completed processing an overload request

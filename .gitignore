@@ -1,3 +1,4 @@
+*.pyc
 .ropeproject
 workload-distributor.log
 workload-distributor-server.log

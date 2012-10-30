@@ -46,7 +46,7 @@ for hostname, host_id in db.select_host_ids().items():
     prev_timestamp = start_time
     prev_state = 1
     states = {0: [], 1: []}
-    for timestamp, state in db.select_host_states(host_id, start_time):
+    for timestamp, state in db.select_host_states(host_id, start_time, finish_time):
         if prev_timestamp:
             states[prev_state].append(total_seconds(timestamp - prev_timestamp))
         prev_timestamp = timestamp

@@ -211,11 +211,14 @@ class Database(object):
                     for x in self.hosts.select().execute().fetchall())
 
     @contract
-    def select_host_states(self, host_id, start_time):
+    def select_host_states(self, host_id, start_time, end_time):
         """ Select the states of a host.
 
         :param start_time: The start time to select host states.
          :type start_time: *
+
+        :param end_time: The end time to select host states.
+         :type end_time: *
 
         :return: A list of timestamps and host states.
          :rtype: list(tuple(*, int))
@@ -223,17 +226,21 @@ class Database(object):
         hs = self.host_states
         sel = select([hs.c.timestamp, hs.c.state]). \
             where(and_(hs.c.host_id == host_id,
-                       hs.c.timestamp >= start_time)). \
+                       hs.c.timestamp >= start_time,
+                       hs.c.timestamp <= end_time)). \
             order_by(hs.c.id.asc())
         return [(x[0], int(x[1])) 
                 for x in self.connection.execute(sel).fetchall()]
 
     @contract
-    def select_host_overload(self, host_id, start_time):
+    def select_host_overload(self, host_id, start_time, end_time):
         """ Select the overload of a host.
 
         :param start_time: The start time to select host overload.
          :type start_time: *
+
+        :param end_time: The end time to select host states.
+         :type end_time: *
 
         :return: A list of timestamps and overloads.
          :rtype: list(tuple(*, int))
@@ -241,47 +248,11 @@ class Database(object):
         ho = self.host_overload
         sel = select([ho.c.timestamp, ho.c.overload]). \
             where(and_(ho.c.host_id == host_id,
-                       ho.c.timestamp >= start_time)). \
+                       ho.c.timestamp >= start_time,
+                       ho.c.timestamp <= end_time)). \
             order_by(ho.c.id.asc())
         return [(x[0], int(x[1])) 
                 for x in self.connection.execute(sel).fetchall()]
-
-    @contract
-    def select_active_hosts(self):
-        """ Select the currently active hosts.
-
-        :return: A list of host names.
-         :rtype: list(str)
-        """
-        return [host 
-                for host, state in self.select_host_states().items() 
-                if state == 1]
-
-    @contract
-    def select_inactive_hosts(self):
-        """ Select the currently inactive hosts.
-
-        :return: A list of host names.
-         :rtype: list(str)
-        """
-        return [host 
-                for host, state in self.select_host_states().items() 
-                if state == 0]
-
-    @contract
-    def insert_vm_migration(self, vm, hostname):
-        """ Insert a VM migration.
-
-        :param hostname: A VM UUID.
-         :type hostname: str[36]
-
-        :param hostname: A host name.
-         :type hostname: str
-        """
-        self.vm_migrations.insert().execute(
-            vm_id=self.select_vm_id(vm),
-            host_id=self.select_host_id(hostname))
-        
 
 @contract
 def init_db(sql_connection):

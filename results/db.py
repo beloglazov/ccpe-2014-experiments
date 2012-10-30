@@ -254,6 +254,28 @@ class Database(object):
         return [(x[0], int(x[1])) 
                 for x in self.connection.execute(sel).fetchall()]
 
+    @contract
+    def select_vm_migrations(self, start_time, end_time):
+        """ Select VM migrations.
+
+        :param start_time: The start time to select data.
+         :type start_time: *
+
+        :param end_time: The end time to select data.
+         :type end_time: *
+
+        :return: A list of timestamps and VM IDs.
+         :rtype: list(tuple(*, int))
+        """
+        vm = self.vm_migrations
+        sel = select([vm.c.timestamp, vm.c.vm_id]). \
+            where(and_(vm.c.timestamp >= start_time,
+                       vm.c.timestamp <= end_time)). \
+            order_by(vm.c.id.asc())
+        return [(x[0], int(x[1])) 
+                for x in self.connection.execute(sel).fetchall()]
+
+
 @contract
 def init_db(sql_connection):
     """ Initialize the database.

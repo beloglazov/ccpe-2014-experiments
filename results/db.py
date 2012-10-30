@@ -217,7 +217,7 @@ class Database(object):
         :param start_time: The start time to select host states.
          :type start_time: *
 
-        :return: A dict of host names to states.
+        :return: A list of timestamps and host states.
          :rtype: list(tuple(*, int))
         """
         hs = self.host_states
@@ -225,6 +225,24 @@ class Database(object):
             where(and_(hs.c.host_id == host_id,
                        hs.c.timestamp >= start_time)). \
             order_by(hs.c.id.asc())
+        return [(x[0], int(x[1])) 
+                for x in self.connection.execute(sel).fetchall()]
+
+    @contract
+    def select_host_overload(self, host_id, start_time):
+        """ Select the overload of a host.
+
+        :param start_time: The start time to select host overload.
+         :type start_time: *
+
+        :return: A list of timestamps and overloads.
+         :rtype: list(tuple(*, int))
+        """
+        ho = self.host_overload
+        sel = select([ho.c.timestamp, ho.c.overload]). \
+            where(and_(ho.c.host_id == host_id,
+                       ho.c.timestamp >= start_time)). \
+            order_by(ho.c.id.asc())
         return [(x[0], int(x[1])) 
                 for x in self.connection.execute(sel).fetchall()]
 

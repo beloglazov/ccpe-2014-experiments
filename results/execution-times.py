@@ -46,7 +46,7 @@ pairs = []
 start_times_reversed = list(reversed(start_times))
 end_times_reversed = list(reversed(end_times))
 
-for i in xrange(len(start_times)):
+for i in xrange(min(len(start_times), len(end_times))):
     if not start_times_reversed or not end_times_reversed:
         break
     while i < len(start_times_reversed) and \

@@ -33,8 +33,8 @@ start_time = datetime.fromtimestamp(
     time.mktime(time.strptime(sys.argv[3], '%Y-%m-%d %H:%M:%S')))
 finish_time = datetime.fromtimestamp(
     time.mktime(time.strptime(sys.argv[4], '%Y-%m-%d %H:%M:%S')))
-print "Start time: " + str(start_time)
-print "Finish time: " + str(finish_time)
+#print "Start time: " + str(start_time)
+#print "Finish time: " + str(finish_time)
 
 def total_seconds(delta):
     return (delta.microseconds + 
@@ -52,15 +52,17 @@ for hostname, host_id in db.select_host_ids().items():
         prev_timestamp = timestamp
         prev_state = state
     states[prev_state].append(total_seconds(finish_time - prev_timestamp))
-    print states
+    #print states
     nonoverload_time = sum(states[0])
     overload_time = sum(states[1])
     total_time += nonoverload_time + overload_time
     total_overload_time += overload_time
 
-print "Total time: " + str(total_time)
-print "Overload time: " + str(total_overload_time)
-print "OTF: " + str(float(total_overload_time) / total_time)
-        
+#print "Total time: " + str(total_time)
+#print "Overload time: " + str(total_overload_time)
+#print "OTF: " + str(float(total_overload_time) / total_time)
+
+print float(total_overload_time) / total_time
+
 
 

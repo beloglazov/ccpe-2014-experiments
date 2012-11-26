@@ -34,6 +34,8 @@ start_time = datetime.fromtimestamp(
 finish_time = datetime.fromtimestamp(
     time.mktime(time.strptime(sys.argv[4], '%Y-%m-%d %H:%M:%S')))
 
-print "Start time: " + str(start_time)
-print "Finish time: " + str(finish_time)
-print "VM migrations: " + str(len(db.select_vm_migrations(start_time, finish_time)))
+#print "Start time: " + str(start_time)
+#print "Finish time: " + str(finish_time)
+#print "VM migrations: " + str(len(db.select_vm_migrations(start_time, finish_time)))
+
+print len(db.select_vm_migrations(start_time, finish_time))

@@ -28,7 +28,7 @@ if len(sys.argv) < 5:
     print '4. The finish datetime in the format: %Y-%m-%d %H:%M:%S'
     sys.exit(1)
 
-db = init_db('mysql://' + sys.argv[1] + ':' + sys.argv[2] + '@localhost/neat')
+db = init_db('mysql://' + sys.argv[1] + ':' + sys.argv[2] + '@localhost/spe')
 start_time = datetime.fromtimestamp(
     time.mktime(time.strptime(sys.argv[3], '%Y-%m-%d %H:%M:%S')))
 finish_time = datetime.fromtimestamp(

@@ -13,9 +13,5 @@ rm $output2
     mhod-0.01-0.8.tar.gz '2012-11-20 17:19:03' '2012-11-21 17:19:03' $output1 $output2
 ./do-one.sh \
     mhod-0.1-0.8.tar.gz '2012-11-29 11:01:39' '2012-11-30 11:01:39' $output1 $output2
-
-
-#./do-one.sh \
-#    mhod-0.01-0.95.tar.gz '2012-11-05 10:47:41' '2012-11-06 10:47:41' $output1 $output2
-#./do-one.sh \
-#    mhod-0.1.tar.gz '2012-10-30 14:19:26' '2012-10-31 14:19:26' $output1 $output2
+./do-one.sh \
+    mhod-0.2-0.8.tar.gz '2012-12-01 16:55:53' '2012-12-02 16:55:53' $output1 $output2

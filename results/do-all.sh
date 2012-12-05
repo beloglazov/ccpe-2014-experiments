@@ -17,3 +17,6 @@ rm $output2
     mhod-0.1-0.8.tar.gz '2012-11-29 11:01:39' '2012-11-30 11:01:39' $output1 $output2
 ./do-one.sh \
     mhod-0.2-0.8.tar.gz '2012-12-01 16:55:53' '2012-12-02 16:55:53' $output1 $output2
+
+./do-one.sh \
+    best-idf.tar.gz '2012-12-04 13:50:14' '2012-12-05 13:50:14' $output1 $output2

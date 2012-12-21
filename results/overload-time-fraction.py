@@ -40,6 +40,21 @@ def total_seconds(delta):
     return (delta.microseconds + 
             (delta.seconds + delta.days * 24 * 3600) * 1000000) / 1000000
 
+total_idle_time = 0
+for hostname, host_id in db.select_host_ids().items():
+    prev_timestamp = start_time
+    prev_state = 1
+    states = {0: [], 1: []}
+    for timestamp, state in db.select_host_states(host_id, start_time, finish_time):
+        if prev_timestamp:
+            states[prev_state].append(total_seconds(timestamp - prev_timestamp))
+        prev_timestamp = timestamp
+        prev_state = state
+    states[prev_state].append(total_seconds(finish_time - prev_timestamp))
+    #print states
+    off_time = sum(states[0])
+    total_idle_time += off_time
+
 total_time = 0
 total_overload_time = 0
 for hostname, host_id in db.select_host_ids().items():
@@ -62,7 +77,7 @@ for hostname, host_id in db.select_host_ids().items():
 #print "Overload time: " + str(total_overload_time)
 #print "OTF: " + str(float(total_overload_time) / total_time)
 
-print float(total_overload_time) / total_time
+print float(total_overload_time) / (total_time - total_idle_time)
 
 
 

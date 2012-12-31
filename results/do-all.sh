@@ -32,3 +32,6 @@ rm $output2
     mhod-0.8-0.20-500-0.8-only-n-1.tar.gz '2012-12-27 13:03:28' '2012-12-28 13:03:28' $output1 $output2
 ./do-one.sh \
     mhod-0.8-0.30-500-0.8-only-n-1.tar.gz '2012-12-29 13:55:13' '2012-12-30 13:55:13' $output1 $output2
+
+./do-one.sh \
+    thr-2-0.8-1.tar.gz '2012-12-30 15:56:24' '2012-12-31 15:56:24' $output1 $output2

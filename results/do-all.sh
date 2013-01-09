@@ -39,3 +39,6 @@ rm $output2
     thr-2-0.8-2.tar.gz '2012-12-31 17:20:06' '2013-01-01 17:20:06' $output1 $output2
 ./do-one.sh \
     thr-2-0.8-3.tar.gz '2013-01-01 18:16:25' '2013-01-02 18:16:25' $output1 $output2
+
+./do-one.sh \
+    best-idf-1.tar.gz '2013-01-09 09:17:11' '2013-01-10 09:17:11' $output1 $output2

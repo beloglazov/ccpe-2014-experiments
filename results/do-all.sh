@@ -44,3 +44,5 @@ rm $output2
     best-idf-1.tar.gz '2013-01-09 09:17:11' '2013-01-10 09:17:11' $output1 $output2
 ./do-one.sh \
     best-idf-2.tar.gz '2013-01-10 10:41:12' '2013-01-11 10:41:12' $output1 $output2
+./do-one.sh \
+    best-idf-3.tar.gz '2013-01-11 13:50:41' '2013-01-12 13:50:41' $output1 $output2

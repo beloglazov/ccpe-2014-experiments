@@ -18,7 +18,28 @@ start_time = sys.argv[2]
 end_time = sys.argv[3]
 
 sources = {
-    ('compute1', 'compute2', 'compute3', 'compute4'): 
+    ('controller',):
+    [('global-manager',
+      [('Started processing an underload request',
+        'Completed processing an underload request'),
+       ('Started processing an underload request',
+        'Skipped an underload request'),
+       ('Started underload VM placement',
+        'Completed underload VM placement'),
+       ('Started underload VM migrations',
+        'Completed underload VM migrations'),
+       ('Started processing an overload request',
+        'Completed processing an overload request'),
+       ('Started processing an overload request',
+        'Skipped an overload request'),
+       ('Started overload VM placement',
+        'Completed overload VM placement'),
+       ('Started overload VM migrations',
+        'Completed overload VM migrations'),
+       ('Started migration of VM',
+        'Completed migration of VM')])],
+
+    ('compute1', 'compute2', 'compute3', 'compute4'):
     [('data-collector',
       [('Started an iteration',
         'Completed an iteration'),
@@ -36,28 +57,7 @@ sources = {
        ('Started overload detection',
         'Completed overload detection'),
        ('Started VM selection',
-        'Completed VM selection')])],
-
-    ('controller',): 
-    [('global-manager',
-      [('Started processing an underload request', 
-        'Completed processing an underload request'),
-       ('Started processing an underload request', 
-        'Skipped an underload request'),
-       ('Started underload VM placement', 
-        'Completed underload VM placement'),
-       ('Started underload VM migrations', 
-        'Completed underload VM migrations'),
-       ('Started processing an overload request', 
-        'Completed processing an overload request'),
-       ('Started processing an overload request', 
-        'Skipped an overload request'),
-       ('Started overload VM placement', 
-        'Completed overload VM placement'),
-       ('Started overload VM migrations', 
-        'Completed overload VM migrations'),
-       ('Started migration of VM', 
-        'Completed migration of VM')])]}
+        'Completed VM selection')])]}
 
 
 rows = []
@@ -88,5 +88,5 @@ for hosts, data in sources.items():
                     old += ','
                 rows[i] = old + new
             cnt += 1
-                
+
 print '\n'.join(rows)

@@ -29,13 +29,13 @@ if not sys.argv[3] or not sys.argv[4]:
 
 start_time = datetime.datetime.strptime(sys.argv[1], "%Y-%m-%d %H:%M:%S")
 end_time = datetime.datetime.strptime(sys.argv[2], "%Y-%m-%d %H:%M:%S")
-start_times_all = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f") 
+start_times_all = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f")
                    for x in sys.argv[3].split('\n')]
-start_times = [x for x in start_times_all 
+start_times = [x for x in start_times_all
                if x >= start_time and x <= end_time]
-end_times_all = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f") 
+end_times_all = [datetime.datetime.strptime(x, "%Y-%m-%d %H:%M:%S,%f")
                  for x in sys.argv[4].split('\n')]
-end_times = [x for x in end_times_all 
+end_times = [x for x in end_times_all
              if x >= start_time and x <= end_time]
 
 def total_microseconds(delta):
@@ -57,7 +57,7 @@ for i in xrange(min(len(start_times), len(end_times))):
         pairs.append((start_times_reversed[i], end_times_reversed[i]))
 
 deltas = [total_microseconds(end - start) for start, end in pairs]
-for delta in deltas:
+for delta in reversed(deltas):
     print float(delta) / 1000000
 
 #mean = int(round(float(sum(deltas)) / len(deltas)))

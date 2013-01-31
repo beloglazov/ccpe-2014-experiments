@@ -71,3 +71,5 @@ rm $output2
 # Fixed: 
  ./do-one.sh \
      otf-0.8-0.2-4.tar.gz '2013-01-28 16:27:05' '2013-01-29 16:27:05' $output1 $output2
+ ./do-one.sh \
+     otf-0.8-0.2-5.tar.gz '2013-01-30 10:56:02' '2013-01-31 10:56:02' $output1 $output2

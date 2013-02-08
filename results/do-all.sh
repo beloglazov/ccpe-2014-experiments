@@ -78,5 +78,7 @@ rm $output2
 # After time sync
  ./do-one.sh \
      otf-0.8-0.2-7.tar.gz '2013-02-02 11:39:23' '2013-02-03 11:39:23' $output1 $output2
-./do-one.sh \
+ ./do-one.sh \
      otf-0.8-0.2-8.tar.gz '2013-02-05 10:13:15' '2013-02-06 10:13:15' $output1 $output2
+ ./do-one.sh \
+     otf-0.8-0.2-9.tar.gz '2013-02-06 18:13:20' '2013-02-07 18:13:20' $output1 $output2

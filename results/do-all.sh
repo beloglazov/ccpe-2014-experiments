@@ -61,39 +61,39 @@ rm $output2
  ./do-one.sh \
      lrr-0.8-0.9-30-3.tar.gz '2013-01-19 12:10:29' '2013-01-20 12:10:29' $output1 $output2
 
- ./do-one.sh \
-     otf-0.8-0.2.tar.gz '2013-01-23 16:19:19' '2013-01-24 16:19:19' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-2.tar.gz '2013-01-25 11:45:37' '2013-01-26 11:45:37' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-3.tar.gz '2013-01-26 14:40:07' '2013-01-27 14:40:07' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2.tar.gz '2013-01-23 16:19:19' '2013-01-24 16:19:19' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-2.tar.gz '2013-01-25 11:45:37' '2013-01-26 11:45:37' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-3.tar.gz '2013-01-26 14:40:07' '2013-01-27 14:40:07' $output1 $output2
 
-# Fixed: 
- ./do-one.sh \
-     otf-0.8-0.2-4.tar.gz '2013-01-28 16:27:05' '2013-01-29 16:27:05' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-5.tar.gz '2013-01-30 10:56:02' '2013-01-31 10:56:02' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-6.tar.gz '2013-01-31 17:14:19' '2013-02-01 17:14:19' $output1 $output2
-# After time sync
- ./do-one.sh \
-     otf-0.8-0.2-7.tar.gz '2013-02-02 11:39:23' '2013-02-03 11:39:23' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-8.tar.gz '2013-02-05 10:13:15' '2013-02-06 10:13:15' $output1 $output2
- ./do-one.sh \
-     otf-0.8-0.2-9.tar.gz '2013-02-06 18:13:20' '2013-02-07 18:13:20' $output1 $output2
+# # Fixed: 
+#  ./do-one.sh \
+#      otf-0.8-0.2-4.tar.gz '2013-01-28 16:27:05' '2013-01-29 16:27:05' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-5.tar.gz '2013-01-30 10:56:02' '2013-01-31 10:56:02' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-6.tar.gz '2013-01-31 17:14:19' '2013-02-01 17:14:19' $output1 $output2
+# # After time sync
+#  ./do-one.sh \
+#      otf-0.8-0.2-7.tar.gz '2013-02-02 11:39:23' '2013-02-03 11:39:23' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-8.tar.gz '2013-02-05 10:13:15' '2013-02-06 10:13:15' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.2-9.tar.gz '2013-02-06 18:13:20' '2013-02-07 18:13:20' $output1 $output2
 
- ./do-one.sh \
-     otf-0.8-0.1-1.tar.gz '2013-02-08 13:33:24' '2013-02-09 13:33:24' $output1 $output2
+#  ./do-one.sh \
+#      otf-0.8-0.1-1.tar.gz '2013-02-08 13:33:24' '2013-02-09 13:33:24' $output1 $output2
 
-./do-one.sh \
-     otf-0.8-0.3-1.tar.gz '2013-02-09 16:10:18' '2013-02-10 16:10:18' $output1 $output2
+# ./do-one.sh \
+#      otf-0.8-0.3-1.tar.gz '2013-02-09 16:10:18' '2013-02-10 16:10:18' $output1 $output2
 
-./do-one.sh \
-     otf-0.8-0.1-0.7-1.tar.gz '2013-02-11 12:14:59' '2013-02-12 12:14:59' $output1 $output2
+# ./do-one.sh \
+#      otf-0.8-0.1-0.7-1.tar.gz '2013-02-11 12:14:59' '2013-02-12 12:14:59' $output1 $output2
 
-./do-one.sh \
-     otf-0.8-0.2-0.7-1.tar.gz '2013-02-12 15:12:57' '2013-02-13 15:12:57' $output1 $output2
+# ./do-one.sh \
+#      otf-0.8-0.2-0.7-1.tar.gz '2013-02-12 15:12:57' '2013-02-13 15:12:57' $output1 $output2
 
 
 ./do-one.sh \
@@ -103,5 +103,5 @@ rm $output2
 ./do-one.sh \
      mhod-0.8-0.20-0.8-3.tar.gz '2013-02-20 10:37:44' '2013-02-21 10:37:44' $output1 $output2
 
-./do-one.sh \
-     mhod-0.8-0.30-0.8-1.tar.gz '2013-02-15 10:23:38' '2013-02-16 10:23:38' $output1 $output2
+#./do-one.sh \
+#     mhod-0.8-0.30-0.8-1.tar.gz '2013-02-15 10:23:38' '2013-02-16 10:23:38' $output1 $output2

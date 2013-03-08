@@ -106,8 +106,15 @@ rm $output2
 #./do-one.sh \
 #     mhod-0.8-0.30-0.8-1.tar.gz '2013-02-15 10:23:38' '2013-02-16 10:23:38' $output1 $output2
 
+# ./do-one.sh \
+#     lr-1.0-1.tar.gz '2013-02-21 11:31:00' '2013-02-22 11:31:00' $output1 $output2
+
  ./do-one.sh \
-     lr-1.0-1.tar.gz '2013-02-21 11:31:00' '2013-02-22 11:31:00' $output1 $output2
+     lrr-0.9-1.tar.gz '2013-02-27 10:22:20' '2013-02-28 10:22:20' $output1 $output2
+ ./do-one.sh \
+     lrr-0.9-2.tar.gz '2013-03-04 21:49:07' '2013-03-05 21:49:07' $output1 $output2
+ ./do-one.sh \
+     lrr-0.9-3.tar.gz '2013-03-02 12:11:08' '2013-03-03 12:11:08' $output1 $output2
 
  ./do-one.sh \
      lrr-1.0-1.tar.gz '2013-02-22 16:57:53' '2013-02-23 16:57:53' $output1 $output2
@@ -117,8 +124,4 @@ rm $output2
      lrr-1.0-3.tar.gz '2013-02-25 18:46:03' '2013-02-26 18:46:03' $output1 $output2
 
  ./do-one.sh \
-     lrr-0.9-1.tar.gz '2013-02-27 10:22:20' '2013-02-28 10:22:20' $output1 $output2
- ./do-one.sh \
-     lrr-0.9-2.tar.gz '2013-03-04 21:49:07' '2013-03-05 21:49:07' $output1 $output2
- ./do-one.sh \
-     lrr-0.9-3.tar.gz '2013-03-02 12:11:08' '2013-03-03 12:11:08' $output1 $output2
+     lrr-1.1-1.tar.gz '2013-03-06 11:42:44' '2013-03-07 11:42:44' $output1 $output2

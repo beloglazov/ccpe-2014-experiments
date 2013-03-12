@@ -127,3 +127,5 @@ rm $output2
      lrr-1.1-1.tar.gz '2013-03-06 11:42:44' '2013-03-07 11:42:44' $output1 $output2
  ./do-one.sh \
      lrr-1.1-2.tar.gz '2013-03-08 20:58:56' '2013-03-09 20:58:56' $output1 $output2
+ ./do-one.sh \
+     lrr-1.1-3.tar.gz '2013-03-11 13:51:37' '2013-03-12 13:51:37' $output1 $output2

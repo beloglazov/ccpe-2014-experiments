@@ -18,6 +18,8 @@ cd $fullname
 tar xzf db.tar.gz
 cd ../../
 
+echo $fullname
+
 ./do-metrics.sh tmp/$fullname/db.sql "$from" "$to" \
     | sed "s/^/$fullname,$shortname,$params,/" >> $output_metrics
 

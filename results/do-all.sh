@@ -141,4 +141,5 @@ rm $output2
      thr-0.9-1.tar.gz '2013-03-19 15:56:06' '2013-03-20 15:56:06' $output1 $output2
 ./do-one.sh \
      thr-0.9-2.tar.gz '2013-03-21 14:22:36' '2013-03-22 14:22:36' $output1 $output2
-
+./do-one.sh \
+     thr-0.9-3.tar.gz '2013-03-22 16:52:13' '2013-03-23 16:52:13' $output1 $output2

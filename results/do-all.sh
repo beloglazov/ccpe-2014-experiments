@@ -153,3 +153,5 @@ rm $output2
 
 ./do-one.sh \
      max-idf-1.tar.gz '2013-04-02 11:20:30' '2013-04-03 11:20:30' $output1 $output2
+./do-one.sh \
+     max-idf-2.tar.gz '2013-04-03 21:18:23' '2013-04-04 21:18:23' $output1 $output2

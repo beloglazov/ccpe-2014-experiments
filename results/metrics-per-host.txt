@@ -109,39 +109,39 @@ AOTF: 0.170489643153
 
 mhod-0.8-0.30-0.8-1
 compute1: 
-  Overload time: 0
-  Non-overload time: 86400
+  Overload time: 16618
+  Non-overload time: 69782
   Total time: 86400
-  Idle time: 0
-  Non-idle time: 86400
-  ITF: 0.0
-  OTF: 0.0
+  Idle time: 2977
+  Non-idle time: 83423
+  ITF: 0.0344560185185
+  OTF: 0.199201659015
 compute3: 
-  Overload time: 0
-  Non-overload time: 86400
+  Overload time: 16878
+  Non-overload time: 69522
   Total time: 86400
   Idle time: 0
   Non-idle time: 86400
   ITF: 0.0
-  OTF: 0.0
+  OTF: 0.195347222222
 compute2: 
   Overload time: 0
   Non-overload time: 86400
   Total time: 86400
-  Idle time: 0
-  Non-idle time: 86400
-  ITF: 0.0
+  Idle time: 61806
+  Non-idle time: 24594
+  ITF: 0.715347222222
   OTF: 0.0
 compute4: 
-  Overload time: 0
-  Non-overload time: 86400
+  Overload time: 5424
+  Non-overload time: 80976
   Total time: 86400
-  Idle time: 0
-  Non-idle time: 86400
-  ITF: 0.0
-  OTF: 0.0
-AITF: 0.0
-AOTF: 0.0
+  Idle time: 67339
+  Non-idle time: 19061
+  ITF: 0.779386574074
+  OTF: 0.284560096532
+AITF: 0.382297453704
+AOTF: 0.182313868408
 
 mhod-0.8-0.30-0.8-2
 compute1: 
@@ -214,6 +214,114 @@ compute4:
   OTF: 0.0
 AITF: 0.379184027778
 AOTF: 0.180019948358
+
+lrr-0.9-1
+compute1: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 77769
+  Non-idle time: 8631
+  ITF: 0.900104166667
+  OTF: 0.0
+compute3: 
+  Overload time: 28944
+  Non-overload time: 57456
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.335
+compute2: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 85877
+  Non-idle time: 523
+  ITF: 0.993946759259
+  OTF: 0.0
+compute4: 
+  Overload time: 29864
+  Non-overload time: 56536
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.345648148148
+AITF: 0.473512731481
+AOTF: 0.323202567682
+
+lrr-0.9-2
+compute1: 
+  Overload time: 38022
+  Non-overload time: 48378
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.440069444444
+compute3: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 84396
+  Non-idle time: 2004
+  ITF: 0.976805555556
+  OTF: 0.0
+compute2: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 76112
+  Non-idle time: 10288
+  ITF: 0.880925925926
+  OTF: 0.0
+compute4: 
+  Overload time: 24996
+  Non-overload time: 61404
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.289305555556
+AITF: 0.46443287037
+AOTF: 0.340468523761
+
+lrr-0.9-3
+compute1: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 81906
+  Non-idle time: 4494
+  ITF: 0.947986111111
+  OTF: 0.0
+compute3: 
+  Overload time: 21983
+  Non-overload time: 64417
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.25443287037
+compute2: 
+  Overload time: 43928
+  Non-overload time: 42472
+  Total time: 86400
+  Idle time: 0
+  Non-idle time: 86400
+  ITF: 0.0
+  OTF: 0.508425925926
+compute4: 
+  Overload time: 0
+  Non-overload time: 86400
+  Total time: 86400
+  Idle time: 84437
+  Non-idle time: 1963
+  ITF: 0.977280092593
+  OTF: 0.0
+AITF: 0.481316550926
+AOTF: 0.367689964688
 
 lrr-1.0-1
 compute1: 

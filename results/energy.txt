@@ -1,0 +1,36 @@
+THR-0.8
+Energy consolidation: 25.987130496 kWh
+Energy max: 34.64584704 kWh
+Energy savings: 24.992076349%
+THR-0.9
+Energy consolidation: 24.009796224 kWh
+Energy max: 33.79815936 kWh
+Energy savings: 28.9612313846%
+THR-1.0
+Energy consolidation: 22.0914484608 kWh
+Energy max: 32.925906432 kWh
+Energy savings: 32.9055723753%
+LRR-1.1
+Energy consolidation: 25.65542208 kWh
+Energy max: 34.4984832 kWh
+Energy savings: 25.6331881861%
+LRR-1.0
+Energy consolidation: 24.958430592 kWh
+Energy max: 34.17527808 kWh
+Energy savings: 26.9693415996%
+LRR-0.9
+Energy consolidation: 22.602016896 kWh
+Energy max: 33.20400384 kWh
+Energy savings: 31.9298449521%
+MHOD-0.2
+Energy consolidation: 25.697679744 kWh
+Energy max: 34.53497856 kWh
+Energy savings: 25.5894145139%
+MHOD-0.3
+Energy consolidation: 25.5945814272 kWh
+Energy max: 34.475148288 kWh
+Energy savings: 25.7593289712%
+MAX-ITF
+Energy consolidation: 22.0650832512 kWh
+Energy max: 32.938818048 kWh
+Energy savings: 33.0119155489%

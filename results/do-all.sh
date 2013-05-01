@@ -117,6 +117,9 @@ rm $output2
 ./do-one.sh \
      mhod-0.8-0.40-0.8-3.tar.gz '2013-04-28 15:51:08' '2013-04-29 15:51:08' $output1 $output2
 
+./do-one.sh \
+     mhod-0.8-0.50-0.8-1.tar.gz '2013-04-30 17:43:11' '2013-05-01 17:43:11' $output1 $output2
+
  ./do-one.sh \
      lrr-0.9-1.tar.gz '2013-02-27 10:22:20' '2013-02-28 10:22:20' $output1 $output2
  ./do-one.sh \

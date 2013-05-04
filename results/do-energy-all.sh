@@ -24,6 +24,8 @@ echo "MHOD-0.2"
 echo "MHOD-0.3"
 ./energy.py 0.381138 0.17882
 
+echo "MHOD-0.4"
+./energy.py 0.40670 0.2136
+
 echo "MAX-ITF"
 ./energy.py 0.492273 0.4035
-

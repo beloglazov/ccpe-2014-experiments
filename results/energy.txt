@@ -30,6 +30,10 @@ MHOD-0.3
 Energy consolidation: 25.5945814272 kWh
 Energy max: 34.475148288 kWh
 Energy savings: 25.7593289712%
+MHOD-0.4
+Energy consolidation: 24.72436608 kWh
+Energy max: 34.1217792 kWh
+Energy savings: 27.5408063129%
 MAX-ITF
 Energy consolidation: 22.0650832512 kWh
 Energy max: 32.938818048 kWh
